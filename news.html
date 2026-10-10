@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>news | Martina Dossi</title>
+  <meta name="author" content="Martina Dossi">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/script.js"></script>
+  <script src="assets/news.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a class="nav-link" href="index.html">about</a>
+      <a class="nav-link active" href="news.html">news</a>
+      <a class="nav-link" href="index.html#writing">writing</a>
+      <a class="nav-link" href="dataviz.html">dataviz</a>
+      <a class="nav-link" href="talks.html">talks &amp; teaching</a>
+      <button id="theme-toggle" title="Change theme" aria-label="Change theme">
+        <i class="ti ti-sun-filled"></i><i class="ti ti-moon-filled"></i>
+      </button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header class="post-header">
+      <h1 class="post-title">news</h1>
+      <p class="desc">Everything that's happened, newest first.</p>
+    </header>
+
+    <div class="news-all">
+      <!-- items live in assets/news.js -->
+      <table data-news="all"></table>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">© Copyright <span id="year">2026</span> Martina Dossi. Design adapted from <a href="https://amykzhang.com/" target="_blank" rel="noopener">Ke Er Amy Zhang</a>'s website, built on the <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener">al-folio</a> theme.</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Martina Dossi</title>
+  <meta name="author" content="Martina Dossi">
+  <meta name="description" content="Personal website of Martina Dossi.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/script.js"></script>
+  <script src="assets/news.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a class="nav-link active" href="index.html">about</a>
+      <a class="nav-link" href="news.html">news</a>
+      <a class="nav-link" href="index.html#writing">writing</a>
+      <a class="nav-link" href="dataviz.html">dataviz</a>
+      <a class="nav-link" href="talks.html">talks &amp; teaching</a>
+      <button id="theme-toggle" title="Change theme" aria-label="Change theme">
+        <i class="ti ti-sun-filled"></i><i class="ti ti-moon-filled"></i>
+      </button>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header class="post-header">
+      <h1 class="post-title"><span class="bold">Martina</span> Dossi</h1>
+      <p class="desc">PhD Candidate @ <a href="https://www.projects.science.uu.nl/ics-vig/" target="_blank" rel="noopener">UU Visualization &amp; Graphics</a> // m.dossi @ uu.nl</p>
+    </header>
+
+    <article>
+      <div class="profile">
+        <img src="assets/img/profile.jpg" alt="Martina Dossi">
+      </div>
+
+      <div class="clearfix">
+        <p>Hi! I'm a PhD candidate in the <a href="https://www.projects.science.uu.nl/ics-vig/" target="_blank" rel="noopener">Visualization and Graphics group</a> at Utrecht University. I study how <strong>visual analytics</strong> can make <strong>AI models more accessible and transparent</strong>, covering data exploration, model explainability, and getting models deployed in the real world.</p>
+        <p>Within the <a href="https://vr4evr.nl/" target="_blank" rel="noopener">VR4eVR project</a>, which uses virtual reality to support the rehabilitation of hemianopia (a partial blindness that often follows a stroke) and is funded by <a href="https://www.nwo.nl/en/projects/kich1gz0321028" target="_blank" rel="noopener">NWO</a>, I develop visual analytics systems to explore data from patients' training programs, such as eye-tracking metrics, task performance, and training progression. These tools help occupational therapists and clinicians monitor recovery and optimize rehabilitation strategies. I'm also part of the <a href="https://smartneurolab.nl/people/team/" target="_blank" rel="noopener">SMARTneurolab</a> team.</p>
+        <p>Before my PhD, I studied Statistics at the <a href="https://www.unipd.it/en/" target="_blank" rel="noopener">University of Padova</a> and worked as a Data Scientist in the financial sector, first at the <a href="https://www.ecb.europa.eu/" target="_blank" rel="noopener">European Central Bank</a> (Frankfurt, Germany) and later at <a href="https://www.prometeia.com/" target="_blank" rel="noopener">Prometeia</a> (Milan, Italy).</p>
+        <p>I also <a href="talks.html">teach</a>: I'm a teaching assistant for Visual Analytics for Big Data at Utrecht University and co-teach data visualization at the University of Padova. I'm involved in the data science community as a volunteer at <a href="https://amsterdam.pydata.org/" target="_blank" rel="noopener">PyData Amsterdam</a>.</p>
+        <!-- TODO (optional): a personal line, e.g. "Outside the lab I enjoy …" -->
+      </div>
+
+      <h2><a href="news.html">news</a></h2>
+      <div class="news">
+        <!-- items live in assets/news.js -->
+        <table data-news="5"></table>
+        <a class="more" href="news.html">all news →</a>
+      </div>
+
+      <h2>research</h2>
+      <!-- TODO: add publications here as they come out. Copy the <li> below for each entry. -->
+      <ol class="bibliography">
+        <li>
+          <div class="pub">
+            <!-- diagram from https://vr4evr.nl/?page_id=106 -->
+            <img class="preview" src="assets/img/visual-field-defects.png" alt="Visual field defects in the left and right eye, including hemianopia, with lost vision shown in black">
+            <div class="pub-body">
+              <div class="title">Visual analytics for VR-based rehabilitation of hemianopia</div>
+              <div class="author"><em>Martina Dossi</em></div>
+              <div class="periodical"><em>VR4eVR project</em>, Utrecht University, ongoing</div>
+              <div class="links">
+                <button data-toggle="abstract-text">Abs</button>
+                <a href="https://vr4evr.nl/" target="_blank" rel="noopener">Website</a>
+                <a href="https://www.nwo.nl/en/projects/kich1gz0321028" target="_blank" rel="noopener">NWO</a>
+              </div>
+              <div class="abstract-text hidden">Visual analytics systems for exploring patient rehabilitation data from the VR4eVR project, relating eye-tracking metrics to rehabilitation outcomes in patients with hemianopia.</div>
+            </div>
+          </div>
+        </li>
+      </ol>
+
+      <h2 id="writing">writing</h2>
+      <div class="newsletter">
+        <div class="newsletter-head">
+          <div>
+            <div class="newsletter-title"><a href="https://martinadossi.substack.com/" target="_blank" rel="noopener">a data story</a> <span class="badge">active</span></div>
+            <p class="newsletter-desc">My monthly newsletter on Substack.</p>
+          </div>
+          <a class="subscribe" href="https://martinadossi.substack.com/subscribe" target="_blank" rel="noopener">subscribe</a>
+        </div>
+        <table class="post-list">
+          <!-- latest issues, newest first -->
+          <tr><th>Oct 01, 2026</th><td><a href="https://martinadossi.substack.com/p/august-and-september-2026" target="_blank" rel="noopener">August &amp; September 2026</a> <span class="muted">~ about attention, connections, processes</span></td></tr>
+          <tr><th>Jun 14, 2026</th><td><a href="https://martinadossi.substack.com/p/june-2026-notes-from-and-move" target="_blank" rel="noopener">June 2026: notes from &amp;MOVE</a> <span class="muted">~ about data, art, exploration</span></td></tr>
+          <tr><th>May 31, 2026</th><td><a href="https://martinadossi.substack.com/p/may-2026" target="_blank" rel="noopener">May 2026</a> <span class="muted">~ about chaos, structure, writing</span></td></tr>
+        </table>
+        <a class="more" href="https://martinadossi.substack.com/archive" target="_blank" rel="noopener">all issues →</a>
+      </div>
+
+      <h3 class="subhead">elsewhere</h3>
+      <table class="post-list">
+        <tr><th>Nightingale</th><td><a href="https://nightingaledvs.com/a-matter-of-time-linking-job-titles-to-data-visualization-tasks/" target="_blank" rel="noopener">A Matter of Time: Linking Job Titles to Data Visualization Tasks</a><span class="muted">, Jul 2022</span></td></tr>
+        <tr><th>Medium</th><td><a href="https://medium.com/make-your-data-speak/building-bridges-with-data-visualization-53990d4f9006" target="_blank" rel="noopener">Building Bridges with Data Visualization</a><span class="muted">, Apr 2023</span></td></tr>
+      </table>
+
+      <div class="social">
+        <div class="contact-icons">
+          <a href="mailto:m.dossi@uu.nl" title="Email"><i class="ti ti-mail"></i></a>
+          <a href="https://www.linkedin.com/in/martina-dossi/" title="LinkedIn" target="_blank" rel="noopener"><i class="ti ti-brand-linkedin"></i></a>
+          <a href="https://github.com/martidossi" title="GitHub" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i></a>
+          <a href="https://www.behance.net/martinadossi" title="Behance" target="_blank" rel="noopener"><i class="ti ti-brand-behance"></i></a>
+          <a href="https://www.instagram.com/adatastory_/" title="Instagram" target="_blank" rel="noopener"><i class="ti ti-brand-instagram"></i></a>
+          <a href="https://martinadossi.substack.com/" title="Substack: a data story" target="_blank" rel="noopener"><i class="ti ti-news"></i></a>
+          <a href="https://www.uu.nl/staff/MDossi" title="Utrecht University profile" target="_blank" rel="noopener"><i class="ti ti-school"></i></a>
+        </div>
+        <div class="contact-note">email: m.dossi @ uu.nl</div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">© Copyright <span id="year">2026</span> Martina Dossi. Design adapted from <a href="https://amykzhang.com/" target="_blank" rel="noopener">Ke Er Amy Zhang</a>'s website, built on the <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener">al-folio</a> theme.</div>
+  </footer>
+</body>
+</html>
