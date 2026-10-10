@@ -35,6 +35,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // Clicking the profile photo gives it a small wobble.
+  const profile = document.querySelector(".profile");
+  if (profile) {
+    profile.addEventListener("click", () => {
+      profile.classList.remove("nudge");
+      void profile.offsetWidth; // restart the animation on every click
+      profile.classList.add("nudge");
+    });
+  }
+
   // "Data point" cursor: a dot in the theme colour that grows over links,
   // like a point in a scatter plot on hover. Only for mouse/trackpad users.
   if (window.matchMedia("(pointer: fine)").matches) {
@@ -46,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("mousemove", (e) => {
       dot.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
       dot.classList.add("visible");
-      dot.classList.toggle("hovering", !!e.target.closest("a, button, .preview"));
+      dot.classList.toggle("hovering", !!e.target.closest("a, button, .preview, .profile"));
     });
     document.documentElement.addEventListener("mouseleave", () => dot.classList.remove("visible"));
     document.addEventListener("mousedown", () => dot.classList.add("pressed"));
