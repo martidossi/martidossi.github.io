@@ -189,7 +189,7 @@ h2 a { color: inherit; }
 .newsletter-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
 .newsletter-title { font-size: 1.05rem; font-weight: 600; }
 .newsletter-brand { display: flex; align-items: center; gap: 16px; margin-bottom: 10px; }
-.newsletter-logo { display: block; width: 76px; height: 76px; border-radius: 16px; background: #fff; }
+.newsletter-logo { display: block; width: 76px; height: 76px; border-radius: 16px; background: #fff; border: 1.5px solid #f2c4c4; box-shadow: var(--shadow); }
 .newsletter-desc { margin: 2px 0 10px; color: var(--text-light); }
 .badge {
   display: inline-block; vertical-align: middle;
