@@ -63,6 +63,18 @@ document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("mouseup", () => dot.classList.remove("pressed"));
   }
 
+  // cv: keep the length of current roles up to date, counting both end months like LinkedIn
+  document.querySelectorAll("[data-since]").forEach((el) => {
+    const [y, m] = el.dataset.since.split("-").map(Number);
+    const now = new Date();
+    const months = (now.getFullYear() - y) * 12 + (now.getMonth() + 1 - m) + 1;
+    const yrs = Math.floor(months / 12), mos = months % 12;
+    const parts = [];
+    if (yrs) parts.push(yrs + (yrs === 1 ? " yr" : " yrs"));
+    if (mos) parts.push(mos + (mos === 1 ? " mo" : " mos"));
+    el.textContent = parts.join(" ");
+  });
+
   const year = document.getElementById("year");
   if (year) year.textContent = new Date().getFullYear();
 });

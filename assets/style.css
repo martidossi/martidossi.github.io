@@ -236,6 +236,8 @@ html[data-theme="dark"] .badge { color: #7fd1a0; background: rgba(127, 209, 160,
 .cv li::marker { color: var(--theme); }
 .cv ul.roles { list-style: none; padding: 0; margin-top: 6px; }
 .cv ul.roles li { margin-bottom: 0; }
+.cv ul.roles .muted { white-space: nowrap; }
+.cv .duration { display: block; font-size: 0.8rem; margin-top: 2px; }
 .tag {
   font-size: 0.75rem; font-weight: 500;
   color: var(--text); background: var(--surface);
@@ -290,6 +292,8 @@ footer a { color: inherit; text-decoration: underline; text-underline-offset: 2p
   }
   .news td, .news-all td, .post-list td { display: block; padding: 0 0 8px; }
   .talks td { padding-bottom: 14px; }
+  .cv .duration { display: inline; margin-left: 3px; }
+  .cv .duration::before { content: "· "; }
   .newsletter { padding: 18px; }
   .newsletter-head { flex-direction: column; gap: 4px; }
   .subscribe { margin-bottom: 8px; }
