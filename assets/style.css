@@ -188,6 +188,8 @@ h2 a { color: inherit; }
 }
 .newsletter-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
 .newsletter-title { font-size: 1.05rem; font-weight: 600; }
+.newsletter-brand { display: flex; align-items: center; gap: 16px; margin-bottom: 10px; }
+.newsletter-logo { display: block; width: 76px; height: 76px; border-radius: 16px; background: #fff; }
 .newsletter-desc { margin: 2px 0 10px; color: var(--text-light); }
 .badge {
   display: inline-block; vertical-align: middle;
@@ -225,6 +227,15 @@ html[data-theme="dark"] .badge { color: #7fd1a0; background: rgba(127, 209, 160,
 .talks th { width: 120px; }
 .talks td { padding-bottom: 16px; }
 .talk-title { font-weight: 600; color: var(--text-strong); }
+
+/* cv: roles held in one place, then what I did there */
+.cv p { margin: 8px 0 0; }
+.cv .note { font-style: italic; }
+.cv ul { margin: 8px 0 0; padding-left: 18px; }
+.cv li { margin-bottom: 4px; }
+.cv li::marker { color: var(--theme); }
+.cv ul.roles { list-style: none; padding: 0; margin-top: 6px; }
+.cv ul.roles li { margin-bottom: 0; }
 .tag {
   font-size: 0.75rem; font-weight: 500;
   color: var(--text); background: var(--surface);
@@ -283,6 +294,12 @@ footer a { color: inherit; text-decoration: underline; text-underline-offset: 2p
   .newsletter-head { flex-direction: column; gap: 4px; }
   .subscribe { margin-bottom: 8px; }
   h2 { margin-top: 44px; }
+}
+
+/* smaller phones: tighter menu so all six links still fit on one row */
+@media (max-width: 400px) {
+  .navbar a.nav-link { font-size: 0.78rem; padding: 5px 5px; }
+  #theme-toggle { padding: 4px; }
 }
 
 /* ---------- "Data point" cursor ---------- */
