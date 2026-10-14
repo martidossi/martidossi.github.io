@@ -12,7 +12,19 @@ const NEWS = [
   },
   {
     date: "Jun 2026",
+    text: `Attended the ASCI PhD course <a href="https://asci.school/project/a17-visualization-and-virtual-reality/" target="_blank" rel="noopener">A17 Visualization</a> at Eindhoven University of Technology, Eindhoven, NL.`,
+  },
+  {
+    date: "Jun 2026",
     text: `Attended <a href="https://graphichuntersshow.nl/" target="_blank" rel="noopener">&amp;MOVE</a>, a two-day event on data visualization and information design in Utrecht. My notes are in <a href="https://martinadossi.substack.com/p/june-2026-notes-from-and-move" target="_blank" rel="noopener">this newsletter issue</a> (and <a href="https://www.linkedin.com/feed/update/urn:li:activity:7472256624666058754/" target="_blank" rel="noopener">on LinkedIn</a>).`,
+  },
+  {
+    date: "Mar 2026",
+    text: `Ran a booth on AI in airport security screening at <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/science-is-wonderful" target="_blank" rel="noopener">Science is Wonderful!</a>, the European Commission's science fair in Brussels, BE, with Angelos Chatzimparmpas and Niels Teunissen. Kids tried an AI object detector, compared language models in a parallel coordinates plot, and shared their opinions on a physical string plot 🧵 (<a href="https://www.linkedin.com/feed/update/urn:li:activity:7444068673138503681/" target="_blank" rel="noopener">post</a>).`,
+  },
+  {
+    date: "Oct 2025",
+    text: `Attended the ASCI PhD course <a href="https://asci.school/project/a2-brain-inspired-neuromorphic-computing/" target="_blank" rel="noopener">A2 Brain-Inspired Neuromorphic Computing</a> in Utrecht, NL.`,
   },
   {
     date: "Sep 2025",
@@ -21,6 +33,10 @@ const NEWS = [
   {
     date: "Sep 2025",
     text: `Volunteered at <a href="https://www.linkedin.com/feed/update/urn:li:activity:7378100029049188352/" target="_blank" rel="noopener">PyData Amsterdam 2025</a>.`,
+  },
+  {
+    date: "Jul 2025",
+    text: `Attended the <a href="https://malga.unige.it/education/schools/dvss/" target="_blank" rel="noopener">Data Visualization Summer School</a> organized by MaLGa, the Machine Learning Genoa Center, in Genova, IT (<a href="https://www.linkedin.com/feed/update/urn:li:activity:7351300131226382337/" target="_blank" rel="noopener">post</a>).`,
   },
   {
     date: "May 2025",
@@ -37,6 +53,10 @@ const NEWS = [
   {
     date: "Apr 2024",
     text: `Started co-teaching Descriptive Statistics and Data Visualization in the Master <a href="https://uel.unipd.it/master-e-corsi/mcs-comunicazione-delle-scienze/" target="_blank" rel="noopener">Comunicazione delle Scienze</a> at the University of Padova. See <a href="talks.html">teaching</a>.`,
+  },
+  {
+    date: "Feb 2024",
+    text: `Four of my visualizations were featured in the book <em>Glamorous Infographics</em> by Designerbooks: two of my earliest projects, on the weather in Milan and the Golden Globes for TV series, plus <a href="dataviz.html">A Matter of Time</a> (DVS SOTI challenge) and <a href="dataviz.html">Rural–urban nexus</a> (Viz for Social Good and Bridges to Prosperity) 📖 (<a href="https://www.linkedin.com/feed/update/urn:li:activity:7161815939594891264/" target="_blank" rel="noopener">post</a>).`,
   },
 ];
 
