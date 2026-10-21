@@ -4,6 +4,10 @@
 const NEWS = [
   {
     date: "Oct 2026",
+    text: `Our poster <em>OrCaPCP: Overlapping Categories Parallel Coordinates Plots</em> (M. Dossi, S. Agarwal, M. Poddar, F. Beck, A. Chatzimparmpas) won the Audience Award Runner-up in the poster contest at <a href="https://alice-and-eve.github.io/2026/" target="_blank" rel="noopener">Alice &amp; Eve 2026</a> in Utrecht, NL 🏆`,
+  },
+  {
+    date: "Oct 2026",
     text: `Launched my new personal website! 🎉`,
   },
   {
@@ -19,8 +23,12 @@ const NEWS = [
     text: `Attended <a href="https://graphichuntersshow.nl/" target="_blank" rel="noopener">&amp;MOVE</a>, a two-day event on data visualization and information design in Utrecht. My notes are in <a href="https://martinadossi.substack.com/p/june-2026-notes-from-and-move" target="_blank" rel="noopener">this newsletter issue</a> (and <a href="https://www.linkedin.com/feed/update/urn:li:activity:7472256624666058754/" target="_blank" rel="noopener">on LinkedIn</a>).`,
   },
   {
+    date: "May 2026",
+    text: `Gave a seminar on reactive Python notebooks with <a href="https://marimo.io/" target="_blank" rel="noopener">marimo</a> for data visualization, in the course Laboratorio di software statistici at Sapienza University of Rome, IT. See <a href="talks.html">talks</a>.`,
+  },
+  {
     date: "Mar 2026",
-    text: `Ran a booth on AI in airport security screening at <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/science-is-wonderful" target="_blank" rel="noopener">Science is Wonderful!</a>, the European Commission's science fair in Brussels, BE, with Angelos Chatzimparmpas and Niels Teunissen. Kids tried an AI object detector, compared language models in a parallel coordinates plot, and shared their opinions on a physical string plot 🧵 (<a href="https://www.linkedin.com/feed/update/urn:li:activity:7444068673138503681/" target="_blank" rel="noopener">post</a>).`,
+    text: `Ran a booth on AI in airport security screening at <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/science-is-wonderful" target="_blank" rel="noopener">Science is Wonderful!</a>, the European Commission's science fair in Brussels, BE, with Angelos Chatzimparmpas and Niels Teunissen. Kids tried an AI object detector and compared language models in a parallel coordinates plot. I worked on its physical version, a string plot 🧵 where kids shared their opinions before and after the experience (<a href="https://www.linkedin.com/feed/update/urn:li:activity:7444068673138503681/" target="_blank" rel="noopener">post</a>).`,
   },
   {
     date: "Oct 2025",
@@ -40,7 +48,7 @@ const NEWS = [
   },
   {
     date: "May 2025",
-    text: `Started my PhD in the <a href="https://www.projects.science.uu.nl/ics-vig/" target="_blank" rel="noopener">Visualization and Graphics group</a> at Utrecht University, working on the <a href="https://vr4evr.nl/" target="_blank" rel="noopener">VR4eVR project</a>.`,
+    text: `Started my PhD in the <a href="https://www.projects.science.uu.nl/ics-vig/" target="_blank" rel="noopener">Visualization and Graphics group</a> at Utrecht University, working on the <a href="https://vr4evr.nl/" target="_blank" rel="noopener">VR4eVR project</a>. 🥽`,
   },
   {
     date: "2024",
