@@ -3,8 +3,12 @@
 // `text` can contain HTML (links etc.).
 const NEWS = [
   {
+    date: "Nov 2026",
+    text: `Presented a <a href="https://drive.google.com/file/d/1CGydql_amnIVGTHb9PSvjrd7pjaQY36R/view" target="_blank" rel="noopener">poster</a> on visualizing gaze and performance data from VR-based visual rehabilitation (<a href="https://vr4evr.nl/" target="_blank" rel="noopener">VR4eVR</a>) at Perception Day in Utrecht, NL.`,
+  },
+  {
     date: "Oct 2026",
-    text: `Our poster <em>OrCaPCP: Overlapping Categories Parallel Coordinates Plots</em> (M. Dossi, S. Agarwal, M. Poddar, F. Beck, A. Chatzimparmpas) won the Audience Award Runner-up in the poster contest at <a href="https://alice-and-eve.github.io/2026/" target="_blank" rel="noopener">Alice &amp; Eve 2026</a> in Utrecht, NL 🏆`,
+    text: `Our <a href="https://drive.google.com/file/d/12YgW96R64gtBvkfXpOESXja85mb1VEJ5/view" target="_blank" rel="noopener">poster</a> <em>OrCaPCP: Overlapping Categories Parallel Coordinates Plots</em> (M. Dossi, S. Agarwal, M. Poddar, F. Beck, A. Chatzimparmpas) won the Audience Award Runner-up in the poster contest at <a href="https://alice-and-eve.github.io/2026/" target="_blank" rel="noopener">Alice &amp; Eve 2026</a> in Utrecht, NL 🏆`,
   },
   {
     date: "Oct 2026",
